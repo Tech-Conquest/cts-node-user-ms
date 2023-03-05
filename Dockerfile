@@ -1,6 +1,6 @@
 FROM node:14.15-alpine
 
-WORKDIR /CTS-NODE-API
+WORKDIR /CTS-USER-MS
 
 COPY package*.json ./
 

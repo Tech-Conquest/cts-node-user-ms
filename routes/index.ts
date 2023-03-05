@@ -2,7 +2,7 @@ const nodeExpress = require('express');
 
 const router = nodeExpress.Router();
 
-router.use("/user",require('./gateway/userApiGateway.ts'))
+router.use("/user",require('./user/userService.ts'))
 
 
 module.exports = router;
